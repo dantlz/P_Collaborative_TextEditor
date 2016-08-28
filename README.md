@@ -2,8 +2,9 @@
 
 
 This is a text editor that allows users to collaborate on documents. The user interface is implemented with the Java Swing framework. Eclipse is the ideal IDE to run this program.
+
 Notable features include:
-- Serverthread design that allows any number of users to collaborate on a document in real time.
+- Serverthread design using concurrent programming, networking, and database to allows any number of users to collaborate on a document in real time.
 - Signup/login function that stores the hashed user information in a SQL databse via server calls
 - Save/open files from both the online database and harddrive storage
 - Add/remove users from your document to give/remove permission.
